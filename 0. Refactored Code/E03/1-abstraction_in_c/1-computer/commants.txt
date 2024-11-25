@@ -1,0 +1,5 @@
+// Es2
+gcc -fPIC -o Set.o -c Set.c
+gcc -shared -o libStringBuffer.so StringBuffer.o
+gcc -o main ./main.c -L. -lStringBuffer
+./main
