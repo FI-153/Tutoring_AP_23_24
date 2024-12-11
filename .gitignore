@@ -1,3 +1,6 @@
 .DS_Store
 .vscode
 *.class
+.bsp
+.metals
+.scala-build
